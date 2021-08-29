@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Parabéns Amor!!!</title>
+  <meta name="description" content="Parabéns!">
+  <meta name="author" content="">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <section id=presentation>
+    <div class="presentation">
+    <h1>Olá, tudo bem? Você deve ser a Raquel, certo?!</h1>
+    <br>
+    <br>
+    <div class="selection-buttons">  
+
+    <a class="yesbtn" href="1.html">Ya!</a>
+    <a class="nobtn" onclick="errorSound()"  href="#">Naim!</a>
+    
+    </div>
+    </div>
+    </section>
+    <script>    
+ 
+    
+    
+    function errorSound(){            
+    var errorTrack = new Audio();
+    errorTrack.src = "audio/error.ogg";
+    errorTrack.play();
+}
+
+
+    </script>
+
+  <script src="index.js"></script>
+</body>
+</html>

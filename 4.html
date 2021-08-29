@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Parabéns Amor!!!</title>
+  <meta name="description" content="Parabéns!">
+  <meta name="author" content="">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    
+    
+    
+
+
+
+    <section id=presentation>
+    <div class="presentation">
+    <h1>Muito bem... Agora vamos falar de Humor,<br> de quem vem o termo "Que Qui é?"</h1>
+    <input type="text" class="questionary" id="answer" placeholder="Digite aqui a sua resposta" >
+    <div style="padding-left: 100px; padding-top: 50px;">
+    <buttton onclick="getAnswer();" class="submitbtn">Enviar Resposta</a>
+  </div>  
+  </div>
+    
+    </section>
+    <script>
+    function getAnswer(){
+// Selecting the input element and get its value 
+var answerValue = document.getElementById("answer").value;
+
+// Displaying the value
+if (answerValue == '9999'){
+  window.location.replace("/5.html");
+}else{
+  errorSound()
+}
+}
+
+    
+    
+    function errorSound(){            
+    var errorTrack = new Audio();
+    errorTrack.src = "audio/error.ogg";
+    errorTrack.play();
+}
+
+
+    </script>
+
+  <script src="index.js"></script>
+</body>
+</html>

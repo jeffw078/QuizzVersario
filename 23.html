@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Parabéns Amor!!!</title>
+  <meta name="description" content="Parabéns!">
+  <meta name="author" content="">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>   
+    
+    <section id="presentation">
+    <div class="presentation-dark">
+    <p style="font-size: 38px; font-weight: 800; margin-left: 100px; padding-top: 15px; color: white;"  >Mensagem de algumas pessoas que você considera...</p>
+    <p style="font-weight: 500; margin-left: 100px; color: white;">Para ouvir, basta clicar em uma das fotos... </p>
+    
+    <div style="padding-left: 85%;">
+      <a href="24.html" class="yesbtn">Continuar!!!</a>
+    </div>  
+  
+    <div class="row1">
+      <div class="column-one" style="padding: 5px; margin: 15px;">
+        <img src="img/ademirclaudia.jpg" id="ademirclaudia" onclick="soundPlay(this.id)" class="rounded-msg" />
+    </div>
+    <div class="column-two" style="padding: 5px; margin: 15px;">
+      <img src="img/acelmofernanda.jpg" id="acelmofernanda" onclick="soundPlay(this.id)" class="rounded-msg" />
+    </div>
+    <div class="column-two" style="padding: 5px; margin: 15px;">
+      <img src="img/bruno.jpg" id="bruno" onclick="soundPlay(this.id)" class="rounded-msg" />
+    </div>
+  <div class="column-three" style="padding: 5px; margin: 15px;">
+    <img src="img/gabi-prima.jpg" id="gabi-prima" onclick="soundPlay(this.id)" class="rounded-msg" />
+  </div>
+  <div class="column-four" style="padding: 5px; margin: 15px;">
+  <img src="img/jeane.jpg" id="jeane" onclick="soundPlay(this.id)" class="rounded-msg" />
+  </div>
+  <div class="column-four" style="padding: 5px; margin: 15px;">
+    <img src="img/fawillian.jpg" id="fawillian" onclick="soundPlay(this.id)" class="rounded-msg" />
+    </div> 
+    <div class="column-four" style="padding: 5px; margin: 15px;">
+      <img src="img/murirapha.jpg" id="murirapha" onclick="soundPlay(this.id)" class="rounded-msg" />
+      </div>  
+ 
+  
+  
+
+    </div>
+    <div class="row2">
+      <div class="column-one" style="padding: 5px; margin: 15px;">
+        <img src="img/machado.jpg"  id="machado" onclick="soundPlay(this.id)" class="rounded-msg" />
+    </div>
+    <div class="column-three" style="padding: 5px; margin: 15px;">
+      <img src="img/rosangela.jpg" id="rosangela" onclick="soundPlay(this.id)" class="rounded-msg" />
+    </div>  
+  <div class="column-three" style="padding: 5px; margin: 15px;">
+    <img src="img/aline.jpg" id="aline" onclick="soundPlay(this.id)" class="rounded-msg" />
+  </div>
+  <div class="column-four" style="padding: 5px; margin: 15px;;">
+  <img src="img/roni.jpg" id="roni" onclick="soundPlay(this.id)" class="rounded-msg" />
+  </div>
+  <div class="column-one" style="padding: 5px; margin: 15px;">
+    <img src="img/juli.jpg"  id="juli" onclick="soundPlay(this.id)" class="rounded-msg" />
+</div>
+<div class="column-two" style="padding: 5px; margin: 15px;">
+  <img src="img/joaquim.jpg" id="joaquim" onclick="soundPlay(this.id)" class="rounded-msg" />
+</div>
+<div class="column-four" style="padding: 5px; margin: 15px;">
+  <img src="img/pedro.jpg" id="pedro" onclick="soundPlay(this.id)" class="rounded-msg" />
+  </div>
+  <div class="column-three" style="padding: 5px; margin: 15px;">
+    <img src="img/jeni-luis.jpg" id="jeni-luis" onclick="soundPlay(this.id)" class="rounded-msg" />
+  </div>
+    </div>
+    <div class="row3">
+      
+  
+  
+  <video style="margin-left: 100px;" width="320" height="240" controls>
+    <source src="rogerio.mp4" type="video/mp4">     
+  </video>
+
+  <video style="margin-left: 100px;" width="320" height="240" controls>
+    <source src="joaquim.mp4" type="video/mp4">     
+  </video>
+  
+
+    </div>   
+  </div>
+
+
+  
+    </section>
+
+
+    
+
+<script>   
+  function soundPlay(clicked_id)
+ {
+    nome = clicked_id;
+    var msgTrack = new Audio();    
+    msgTrack.src = "audio/"+ nome +".ogg";
+    msgTrack.play();
+     
+ }
+
+
+
+
+
+   </script>
+
+  <script src="index.js"></script>
+</body>
+</html>
