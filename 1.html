@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Parabéns Amor!!!</title>
+  <meta name="description" content="Parabéns!">
+  <meta name="author" content="">
+  <link rel="icon" href="img/favicon.png" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+
+    <section id=presentation>
+    <div class="presentation">
+    <h1>Que ótimo, vamos começar então?</h1>
+    <br>
+    <br>
+    
+    <div class="selection-buttons">
+        <a class="yesbtn" href="validator.html">Simbora!</a>
+        <a onclick="errorSound()" class="nobtn" href="#">Quero o presente logo!</a>
+    </div>
+
+
+    <h3>Funcionará da Seguinte forma:</h3>
+    <p>Você terá que acertar todas as questões até <br>conseguir encontrar o seu presente!</p>
+    </div>
+
+
+
+   
+
+    </section>
+    
+
+
+    <script>
+    
+    window.onload=function(){
+        var edsong = new Audio();
+        edsong.src = "audio/wee.ogg";
+        edsong.play();
+  }
+    
+    
+    function errorSound(){            
+    var errorTrack = new Audio();
+    errorTrack.src = "audio/error.ogg";
+    errorTrack.play();
+}
+
+
+    </script>
+
+  <script src="index.js"></script>
+</body>
+</html>
