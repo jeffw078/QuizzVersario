@@ -1,7 +1,4 @@
-- 👋 Hi, I’m @jeffw078
-- I'm learning Javascript, Node, ReactJS and React Native.
-- You can find me at Linkedin: https://www.linkedin.com/in/jeffw078/
-
-- Feel free to contact me or browse my projects.
+This is a like quest birthday i made for my girlfriend in his 30th anniversary, where she needs to complete the questions the systens asks correctly to achieve the gift, due to covid-19 i made this with audio messages i asked on Whatsapp of friends and family.
 
 
+ 
